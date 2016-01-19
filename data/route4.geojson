@@ -1,0 +1,942 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-01-18T21:31:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/11620456",
+      "properties": {
+        "@id": "way/11620456",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.2455402,
+            40.7808778
+          ],
+          [
+            -74.2463869,
+            40.779473
+          ],
+          [
+            -74.246699,
+            40.779083
+          ],
+          [
+            -74.246873,
+            40.7788
+          ],
+          [
+            -74.246926,
+            40.77866
+          ],
+          [
+            -74.246953,
+            40.7785
+          ],
+          [
+            -74.24695,
+            40.77846
+          ],
+          [
+            -74.24694,
+            40.77831
+          ],
+          [
+            -74.246862,
+            40.7781
+          ],
+          [
+            -74.246094,
+            40.777257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390876198",
+      "properties": {
+        "@id": "way/390876198",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.244772,
+            40.778579
+          ],
+          [
+            -74.245193,
+            40.777886
+          ],
+          [
+            -74.245312,
+            40.777726
+          ],
+          [
+            -74.246094,
+            40.777257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390876208",
+      "properties": {
+        "@id": "way/390876208",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.246094,
+            40.777257
+          ],
+          [
+            -74.2455,
+            40.776606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11622473",
+      "properties": {
+        "@id": "way/11622473",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.2437578,
+            40.7757219
+          ],
+          [
+            -74.244447,
+            40.775999
+          ],
+          [
+            -74.244847,
+            40.776275
+          ],
+          [
+            -74.244913,
+            40.77632
+          ],
+          [
+            -74.2452399,
+            40.7765142
+          ],
+          [
+            -74.2455,
+            40.776606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390876211",
+      "properties": {
+        "@id": "way/390876211",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.242693,
+            40.77808
+          ],
+          [
+            -74.244772,
+            40.778579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390876214",
+      "properties": {
+        "@id": "way/390876214",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.242693,
+            40.77808
+          ],
+          [
+            -74.2427638,
+            40.7779234
+          ],
+          [
+            -74.242834,
+            40.777768
+          ],
+          [
+            -74.243207,
+            40.777064
+          ],
+          [
+            -74.24324,
+            40.776959
+          ],
+          [
+            -74.2432442,
+            40.7768564
+          ],
+          [
+            -74.2432347,
+            40.7767562
+          ],
+          [
+            -74.2432064,
+            40.7766417
+          ],
+          [
+            -74.243172,
+            40.7765596
+          ],
+          [
+            -74.2427848,
+            40.7759719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11616319",
+      "properties": {
+        "@id": "way/11616319",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.261432,
+            40.790575
+          ],
+          [
+            -74.261143,
+            40.790908
+          ],
+          [
+            -74.261064,
+            40.790998
+          ],
+          [
+            -74.260417,
+            40.791824
+          ],
+          [
+            -74.260281,
+            40.791938
+          ],
+          [
+            -74.259695,
+            40.792366
+          ],
+          [
+            -74.259462,
+            40.792536
+          ],
+          [
+            -74.259333,
+            40.79259
+          ],
+          [
+            -74.25914,
+            40.792649
+          ],
+          [
+            -74.258939,
+            40.792693
+          ],
+          [
+            -74.258037,
+            40.792827
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866737",
+      "properties": {
+        "@id": "way/390866737",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.2502739,
+            40.7832581
+          ],
+          [
+            -74.2509414,
+            40.7851556
+          ],
+          [
+            -74.251197,
+            40.7858871
+          ],
+          [
+            -74.2513402,
+            40.7863126
+          ],
+          [
+            -74.2514127,
+            40.7866145
+          ],
+          [
+            -74.2514798,
+            40.787066
+          ],
+          [
+            -74.2515023,
+            40.7873609
+          ],
+          [
+            -74.2515221,
+            40.787471
+          ],
+          [
+            -74.251571,
+            40.787549
+          ],
+          [
+            -74.2516318,
+            40.7876046
+          ],
+          [
+            -74.2516876,
+            40.787641
+          ],
+          [
+            -74.2517485,
+            40.7876697
+          ],
+          [
+            -74.2518279,
+            40.7876896
+          ],
+          [
+            -74.2519601,
+            40.7877006
+          ],
+          [
+            -74.2520952,
+            40.7876876
+          ],
+          [
+            -74.2524561,
+            40.7876353
+          ],
+          [
+            -74.2526586,
+            40.7876227
+          ],
+          [
+            -74.2529175,
+            40.7876236
+          ],
+          [
+            -74.2541341,
+            40.787694
+          ],
+          [
+            -74.2545468,
+            40.7877319
+          ],
+          [
+            -74.2548095,
+            40.7877823
+          ],
+          [
+            -74.2550517,
+            40.7878493
+          ],
+          [
+            -74.2562113,
+            40.7882281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11614579",
+      "properties": {
+        "@id": "way/11614579",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.254188,
+            40.792685
+          ],
+          [
+            -74.254382,
+            40.792757
+          ],
+          [
+            -74.254482,
+            40.792801
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/296122119",
+      "properties": {
+        "@id": "way/296122119",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.254482,
+            40.792801
+          ],
+          [
+            -74.2546666,
+            40.7927183
+          ],
+          [
+            -74.2549032,
+            40.792487
+          ],
+          [
+            -74.2553464,
+            40.7922929
+          ],
+          [
+            -74.2557635,
+            40.7918982
+          ],
+          [
+            -74.2557809,
+            40.791454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866736",
+      "properties": {
+        "@id": "way/390866736",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.254188,
+            40.792685
+          ],
+          [
+            -74.25481,
+            40.791143
+          ],
+          [
+            -74.254854,
+            40.791035
+          ],
+          [
+            -74.25512,
+            40.790218
+          ],
+          [
+            -74.255126,
+            40.790186
+          ],
+          [
+            -74.2552452,
+            40.7896993
+          ],
+          [
+            -74.255334,
+            40.7894742
+          ],
+          [
+            -74.2555052,
+            40.7891879
+          ],
+          [
+            -74.2562113,
+            40.7882281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866764",
+      "properties": {
+        "@id": "way/390866764",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.258037,
+            40.792827
+          ],
+          [
+            -74.257902,
+            40.792286
+          ],
+          [
+            -74.257874,
+            40.792215
+          ],
+          [
+            -74.25781,
+            40.792155
+          ],
+          [
+            -74.25776,
+            40.792117
+          ],
+          [
+            -74.257695,
+            40.792079
+          ],
+          [
+            -74.257588,
+            40.792035
+          ],
+          [
+            -74.2557809,
+            40.791454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11617237",
+      "properties": {
+        "@id": "way/11617237",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.248458,
+            40.784462
+          ],
+          [
+            -74.249095,
+            40.783322
+          ],
+          [
+            -74.249232,
+            40.783095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866745",
+      "properties": {
+        "@id": "way/390866745",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.249153,
+            40.785219
+          ],
+          [
+            -74.249244,
+            40.785067
+          ],
+          [
+            -74.2502739,
+            40.7832581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866749",
+      "properties": {
+        "@id": "way/390866749",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.248458,
+            40.784462
+          ],
+          [
+            -74.248662,
+            40.784774
+          ],
+          [
+            -74.248968,
+            40.785015
+          ],
+          [
+            -74.249153,
+            40.785219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11616999",
+      "properties": {
+        "@id": "way/11616999",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.244573,
+            40.780549
+          ],
+          [
+            -74.244265,
+            40.78112
+          ],
+          [
+            -74.244244,
+            40.781185
+          ],
+          [
+            -74.244244,
+            40.78122
+          ],
+          [
+            -74.244258,
+            40.781249
+          ],
+          [
+            -74.244309,
+            40.781305
+          ],
+          [
+            -74.244385,
+            40.781339
+          ],
+          [
+            -74.244514,
+            40.781383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390866760",
+      "properties": {
+        "@id": "way/390866760",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.244573,
+            40.780549
+          ],
+          [
+            -74.244742,
+            40.780607
+          ],
+          [
+            -74.2455402,
+            40.7808778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/11617436",
+      "properties": {
+        "@id": "way/11617436",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 5852545,
+            "reltags": {
+              "name": "West Orange Jitney Route 4",
+              "network": "West Orange Jitney",
+              "operator": "Township of West Orange NJ",
+              "route": "bus",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.244514,
+            40.781383
+          ],
+          [
+            -74.245362,
+            40.781668
+          ],
+          [
+            -74.247006,
+            40.782223
+          ],
+          [
+            -74.248374,
+            40.782768
+          ],
+          [
+            -74.248479,
+            40.78281
+          ],
+          [
+            -74.249232,
+            40.783095
+          ]
+        ]
+      }
+    }
+  ]
+}
