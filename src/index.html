@@ -3,24 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>West Orange Jiteny Routes</title>
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  <link rel="stylesheet" href="deps/leaflet.css" />
   <style>
     #map { height: 650px; width: 600px}
   </style>
 </head>
 <body>
-  <div id="map"></div>
-  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-  <script>
-    var map = L.map('map').setView([40.7650, -74.2529], 13);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18,
-        id: 'pschwei1.onlge2d5',
-        accessToken:
-        'pk.eyJ1IjoicHNjaHdlaTEiLCJhIjoiY2lqamVwbGk1MDMwbXU2bTVvenJpcjhnMCJ9.9JVSSiHh0qHipMktVfnMQA',
-        }).addTo(map);
-  </script>
-
+  <section id="schedules">
+  </section>
+  <section id="map"></section>
+  <script src="deps/leaflet.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
