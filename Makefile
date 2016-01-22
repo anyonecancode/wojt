@@ -7,6 +7,13 @@ SCHEDULES = \
 
 schedules: $(SCHEDULES)
 # .PHONY: clean all test publish
+
+src/deps/leaflet.js:
+	wget http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js -O src/deps/leaflet.js
+
+src/deps/leaflet.css:
+	wget http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css -O src/deps/leaflet.css
+
 .PHONY: schedules
 
 extra/route1.pdf:
