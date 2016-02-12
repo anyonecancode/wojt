@@ -8,16 +8,17 @@ var map = L.map('map').setView([40.7650, -74.2529], 13);
         'pk.eyJ1IjoicHNjaHdlaTEiLCJhIjoiY2lqamVwbGk1MDMwbXU2bTVvenJpcjhnMCJ9.9JVSSiHh0qHipMktVfnMQA',
         }).addTo(map);
 
-var r1 = L.geoJson(wojt.routes.route1);
-var r2 = L.geoJson(wojt.routes.route2);
-var r3 = L.geoJson(wojt.routes.route3);
-var r4 = L.geoJson(wojt.routes.route4);
-var r5 = L.geoJson(wojt.routes.route5);
+wojt.r1 = L.geoJson(wojt.routes.route1);
+wojt.r2 = L.geoJson(wojt.routes.route2);
+wojt.r3 = L.geoJson(wojt.routes.route3);
+wojt.r4 = L.geoJson(wojt.routes.route4);
+wojt.r5 = L.geoJson(wojt.routes.route5);
 
-r1.addTo(map);
-r2.addTo(map);
-r3.addTo(map);
-r4.addTo(map);
-r5.addTo(map);
+wojt.r1.addTo(map).setStyle({'color':'#e41a1c'});
+wojt.r2.addTo(map).setStyle({'color':'#377eb8'});
+wojt.r3.addTo(map).setStyle({'color':'#4daf4a'});
+wojt.r4.addTo(map).setStyle({'color':'#984ea3'});
+wojt.r5.addTo(map).setStyle({'color':'#ff7f00'});
 
 }(L, wojt));
+//http://colorbrewer2.org/?type=qualitative&scheme=Set1&n=5
