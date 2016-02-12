@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>West Orange Jiteny Routes</title>
+  <link rel="stylesheet" href="normalize.css" />
   <link rel="stylesheet" href="deps/leaflet.css" />
   <style>
-    #map { height: 450px; width: 600px}
+    body {
+      font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      color: #333;
+    }
+
+    #container {
+      padding: 0 25px 15px;
+    }
+
+    a {
+      color: #0078A8;
+    }
+
+    #map { height: 420px; width: 430px}
 
     .route1 {
       color: #e41a1c;
@@ -22,9 +36,38 @@
     .route5 {
       color: #ff7f00;
     }
+
+    .indent {
+      text-align: right
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+      display: table;
+      margin: 0 0 15px 20px;
+    }
+
+    caption {
+      text-align:left;
+      font-weight:bold;
+      border-bottom: 2px solid #ccc;
+      margin: 8px 0;
+      padding: 8px 0;
+      font-style: italic;
+    }
+
+    th, td {
+      vertical-align: bottom;
+      border-bottom: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
   </style>
 </head>
 <body>
+  <div id="container">
   <section>
     <h1>West Orange Jitney Service</h1>
     <p>There are five routes, connecting the southern neighborhoods of West Orange to rush hour
@@ -35,148 +78,7 @@
         <label class="route1"><input type="checkbox" checked="checked"> Route 1</label>
         <a href="#">Schedule</a>
       </p>
-        <article>
-        <table>
-        <caption>AM Service</caption>
-        <thead>
-          <tr>
-            <th>Hoboken Train</th>
-            <th>---</th>
-            <th>7:22 AM (#852)</th>
-            <th>7:52 AM (#312)</th>
-            <th>8:44 AM (#808)</th>
-          </tr>
-          <tr>
-            <th>NY Penn Train</th>
-            <th>6:52 AM (#6406)</th>
-            <th>7:32 AM (#6614)</th>
-            <th>8:05 AM (#6318)</th>
-            <th>8:35 AM (#6320)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Northfield at Sheridan</td>
-            <td>6:29 AM</td>
-            <td>7:00 AM</td>
-            <td>7:35 AM</td>
-            <td>8:12 AM</td>
-          </tr>
-          <tr>
-            <td>Sheridan at Rodman Pl</td>
-            <td>6:29 AM</td>
-            <td>7:00 AM</td>
-            <td>7:35 AM</td>
-            <td>8:12 AM</td>
-          </tr>
-          <tr>
-            <td>Sheridan at Chestnut Rd</td>
-            <td>6:30 AM</td>
-            <td>7:01 AM</td>
-            <td>7:36 AM</td>
-            <td>8:13 AM</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </tbody>
-        </table>
-        </article>
+      <article></article>
     </section>
 
     <section>
@@ -187,12 +89,103 @@
       <article></article>
     </section>
 
+
     <section>
       <p>
         <label class="route3"><input type="checkbox" checked="checked"> Route 3</label>
         <a href="#">Schedule</a>
       </p>
-      <article></article>
+        <article>
+        <table>
+        <caption>Morning Service to South Orange Station</caption>
+        <thead>
+          <tr>
+            <th>Hoboken Train</th>
+            <th>---</th>
+            <th>7:22</th>
+            <th>7:52</th>
+            <th>8:44</th>
+          </tr>
+          <tr>
+            <th>NY Penn Train</th>
+            <th>6:52</th>
+            <th>7:32</th>
+            <th>8:05</th>
+            <th>8:35</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Northfield at Sheridan</td>
+            <td>6:29</td>
+            <td>7:00</td>
+            <td>7:35</td>
+            <td>8:12</td>
+          </tr>
+          <tr>
+            <td>Sheridan at Rodman Pl</td>
+            <td>6:29</td>
+            <td>7:00</td>
+            <td>7:35</td>
+            <td>8:12</td>
+          </tr>
+          <tr>
+            <td class="indent">&hellip;Chestnut Rd</td>
+            <td>6:30</td>
+            <td>7:01</td>
+            <td>7:36</td>
+            <td>8:13</td>
+          </tr>
+        </tbody>
+        </table>
+        </article>
+
+
+        <article>
+        <table>
+        <caption>Evening Service from South Orange Station</caption>
+        <thead>
+          <tr>
+            <th>Hoboken Train</th>
+            <th>---</th>
+            <th>7:22</th>
+            <th>7:52</th>
+            <th>8:44</th>
+          </tr>
+          <tr>
+            <th>NY Penn Train</th>
+            <th>6:52</th>
+            <th>7:32</th>
+            <th>8:05</th>
+            <th>8:35</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Northfield at Sheridan</td>
+            <td>6:29</td>
+            <td>7:00</td>
+            <td>7:35</td>
+            <td>8:12</td>
+          </tr>
+          <tr>
+            <td>Sheridan at Rodman Pl</td>
+            <td>6:29</td>
+            <td>7:00</td>
+            <td>7:35</td>
+            <td>8:12</td>
+          </tr>
+          <tr>
+            <td class="indent">&hellip;Chestnut Rd</td>
+            <td>6:30</td>
+            <td>7:01</td>
+            <td>7:36</td>
+            <td>8:13</td>
+          </tr>
+        </tbody>
+        </table>
+        </article>
+
     </section>
 
     <section>
@@ -216,5 +209,6 @@
   <script src="deps/leaflet.js"></script>
   <script src="routes.js"></script>
   <script src="app.js"></script>
+  </div>
 </body>
 </html>

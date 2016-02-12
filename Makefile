@@ -10,6 +10,9 @@ schedules: $(SCHEDULES)
 
 .PHONY: schedules
 
+src/normalize.css:
+	wget https://necolas.github.io/normalize.css/3.0.3/normalize.css -O src/normalize.css
+
 src/routes.js:
 	echo "var wojt = wojt || {}" > src/routes.js
 	echo "wojt.routes = {};" >> src/routes.js

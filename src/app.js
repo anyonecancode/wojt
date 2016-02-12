@@ -1,5 +1,5 @@
 (function(L, wojt){
-var map = L.map('map').setView([40.7650, -74.2529], 13);
+var map = L.map('map').setView([40.7690, -74.2640], 13);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
         maxZoom: 18,
@@ -19,6 +19,17 @@ wojt.r2.addTo(map).setStyle({'color':'#377eb8'});
 wojt.r3.addTo(map).setStyle({'color':'#4daf4a'});
 wojt.r4.addTo(map).setStyle({'color':'#984ea3'});
 wojt.r5.addTo(map).setStyle({'color':'#ff7f00'});
+
+var destStyles = {
+  color: 'rgb(252, 78, 42)',
+  fillOpacity: 0.5
+};
+//color: 'rgb(254, 153, 41)',
+  //color: 'rgb(166, 54, 3)',
+wojt.destinations = {};
+wojt.destinations.SOrange = L.circle([40.74622, -74.26050], 100, destStyles).addTo(map);
+wojt.destinations.Mountain = L.circle([40.75543, -74.25273], 100, destStyles).addTo(map);
+wojt.destinations.Orange = L.circle([40.77186, -74.23313], 100, destStyles).addTo(map);
 
 }(L, wojt));
 //http://colorbrewer2.org/?type=qualitative&scheme=Set1&n=5
