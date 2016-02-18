@@ -31,5 +31,22 @@ wojt.destinations.SOrange = L.circle([40.74622, -74.26050], 100, destStyles).add
 wojt.destinations.Mountain = L.circle([40.75543, -74.25273], 100, destStyles).addTo(map);
 wojt.destinations.Orange = L.circle([40.77186, -74.23313], 100, destStyles).addTo(map);
 
+var scheduleToggles = Array.from(document.querySelectorAll('.schedules a'));
+
+function toggleHide(event) {
+  var section = event.target.parentElement.parentElement,
+    newClass;
+
+  newClass = section.classList.contains('schedulesHidden')?
+    section.className.replace(/Hidden/g , 'Shown') :
+    section.className.replace(/Shown/ , 'Hidden');
+
+  section.className = newClass;
+}
+
+scheduleToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', toggleHide);
+});
+
 }(L, wojt));
 //http://colorbrewer2.org/?type=qualitative&scheme=Set1&n=5

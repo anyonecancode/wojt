@@ -17,6 +17,11 @@
 
     a {
       color: #0078A8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     #map { height: 420px; width: 430px}
@@ -43,6 +48,18 @@
 
     .evening {
       color: #008;
+    }
+
+    .schedulesHidden table {
+      display: none;
+    }
+
+    .schedulesHidden .hide {
+      display:none;
+    }
+
+    .schedulesShown .show {
+      display: none;
     }
 
     table {
@@ -77,10 +94,11 @@
     <p>There are five routes, connecting the southern neighborhoods of West Orange to rush hour
     trains at the Orange, Mountain, or South Orange station.</p>
 
-    <section>
+    <section class="schedules schedulesHidden">
       <p>
         <label class="route1"><input type="checkbox" checked="checked"> Route 1</label>
-        <a href="#">Schedule</a>
+        <a href="#" class="show">Show schedule »</a>
+        <a href="#" class="hide">« Hide Schedule</a>
       </p>
       <article>
         <table>
@@ -508,10 +526,11 @@
       </article>
     </section>
 
-    <section>
+    <section class="schedules schedulesHidden">
       <p>
         <label class="route2"><input type="checkbox" checked="checked"> Route 2</label>
-        <a href="#">Schedule</a>
+        <a href="#" class="show">Show schedule »</a>
+        <a href="#" class="hide">« Hide Schedule</a>
       </p>
       <article>
         <table>
@@ -922,10 +941,11 @@
       </article>
     </section>
 
-    <section>
+    <section class="schedules schedulesHidden">
       <p>
         <label class="route3"><input type="checkbox" checked="checked"> Route 3</label>
-        <a href="#">Schedule</a>
+        <a href="#" class="show">Show schedule »</a>
+        <a href="#" class="hide">« Hide Schedule</a>
       </p>
       <article>
         <table>
@@ -1211,10 +1231,11 @@
       </article>
     </section>
 
-    <section>
+    <section class="schedules schedulesHidden">
       <p>
         <label class="route4"><input type="checkbox" checked="checked"> Route 4</label>
-        <a href="#">Schedule</a>
+        <a href="#" class="show">Show schedule »</a>
+        <a href="#" class="hide">« Hide Schedule</a>
       </p>
       <article>
         <table>
@@ -1636,10 +1657,11 @@
       </article>
     </section>
 
-    <section>
+    <section class="schedules schedulesHidden">
       <p>
         <label class="route5"><input type="checkbox" checked="checked"> Route 5</label>
-        <a href="#">Schedule</a>
+        <a href="#" class="show">Show schedule »</a>
+        <a href="#" class="hide">« Hide Schedule</a>
       </p>
       <article>
         <table>
