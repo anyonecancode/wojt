@@ -48,5 +48,21 @@ scheduleToggles.forEach(function(toggle) {
   toggle.addEventListener('click', toggleHide);
 });
 
+function toggleRoute(event) {
+  var el = event.target,
+    route = el.getAttribute('route');
+
+  if (el.checked) {
+    map.addLayer(wojt[route]);
+  } else {
+    map.removeLayer(wojt[route]);
+  }
+}
+
+var routeToggles = Array.from(document.querySelectorAll('input'));
+routeToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', toggleRoute);
+});
+
 }(L, wojt));
 //http://colorbrewer2.org/?type=qualitative&scheme=Set1&n=5
