@@ -13,6 +13,7 @@
 
     #container {
       padding: 0 25px 15px;
+      width: 900px;
     }
 
     a {
@@ -24,7 +25,20 @@
       text-decoration: underline;
     }
 
-    #map { height: 420px; width: 430px}
+    #schedules {
+      float: left;
+      height: 520px;
+      margin: 0 10px 0 0;
+      overflow-y: scroll;
+      width: 430px;
+    }
+
+    #map {
+      float: left;
+      height: 420px;
+      margin: 20px 0 0;
+      width: 430px
+    }
 
     .route1 {
       color: #e41a1c;
@@ -89,10 +103,10 @@
 </head>
 <body>
   <div id="container">
-  <section>
     <h1>West Orange Jitney Service</h1>
     <p>There are five routes, connecting the southern neighborhoods of West Orange to rush hour
     trains at the Orange, Mountain, or South Orange station.</p>
+  <section id="schedules">
 
     <section class="schedules schedulesHidden">
       <p>
@@ -1951,7 +1965,6 @@
         </table>
       </article>
     </section>
-
   </section>
   <div id="map"></div>
   <script src="deps/leaflet.js"></script>
