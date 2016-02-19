@@ -51,6 +51,8 @@ function toggleHide(event) {
     section.className.replace(/Shown/ , 'Hidden');
 
   section.className = newClass;
+
+  event.preventDefault();
 }
 
 scheduleToggles.forEach(function(toggle) {
