@@ -1,12 +1,21 @@
 (function(L, wojt){
-var map = L.map('map').setView([40.7690, -74.2640], 13);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18,
-        id: 'pschwei1.onlge2d5',
-        accessToken:
-        'pk.eyJ1IjoicHNjaHdlaTEiLCJhIjoiY2lqamVwbGk1MDMwbXU2bTVvenJpcjhnMCJ9.9JVSSiHh0qHipMktVfnMQA',
-        }).addTo(map);
+var map = L.map('map',{
+  center: [40.7690, -74.2640],
+  zoom: 13,
+  minZoom: 9,
+  maxBounds: [
+      [40.825, -74.35],
+      [40.7, -74.17]
+    ]
+  });
+
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+  maxZoom: 18,
+  id: 'pschwei1.onlge2d5',
+  accessToken:
+    'pk.eyJ1IjoicHNjaHdlaTEiLCJhIjoiY2lqamVwbGk1MDMwbXU2bTVvenJpcjhnMCJ9.9JVSSiHh0qHipMktVfnMQA',
+}).addTo(map);
 
 wojt.r1 = L.geoJson(wojt.routes.route1);
 wojt.r2 = L.geoJson(wojt.routes.route2);
