@@ -3,3 +3,4 @@ extra/*
 src/deps/*
 Icon?
 Icon$''
+dist/

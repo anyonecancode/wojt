@@ -20,7 +20,10 @@ GEOJSON = \
 					data/route4.geojson \
 					data/route5.geojson
 
-all: $(DEPS) $(SCHEDULES)
+all: dist/index.html
+
+dist/index.html: src/index.html src/app.js $(DEPS)
+	bin/build.py
 
 deps: $(DEPS)
 
@@ -42,6 +45,7 @@ src/deps/routes.js: $(GEOJSON)
 	cat data/route4.geojson >> src/deps/routes.js
 	printf ";wojt.routes.route5 = " >> src/deps/routes.js
 	cat data/route5.geojson >> src/deps/routes.js
+	echo ";" >> src/deps/routes.js
 
 src/deps/leaflet.js:
 	wget http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js -O src/deps/leaflet.js
@@ -67,3 +71,4 @@ extra/route5.pdf:
 clean:
 	rm extra/*
 	rm src/deps/*
+	rm dist/index.html

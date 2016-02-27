@@ -76,4 +76,3 @@ routeToggles.forEach(function(toggle) {
 });
 
 }(L, wojt));
-//http://colorbrewer2.org/?type=qualitative&scheme=Set1&n=5
